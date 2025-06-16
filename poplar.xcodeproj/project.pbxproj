@@ -6,22 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		49335CD12E00D21A0057A197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49335CB82E00D2190057A197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49335CBF2E00D2190057A197;
+			remoteInfo = poplar;
+		};
+		49335CDB2E00D21A0057A197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49335CB82E00D2190057A197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49335CBF2E00D2190057A197;
+			remoteInfo = poplar;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		49F0E4B52DFB7A77005F92A1 /* poplar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poplar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49335CC02E00D2190057A197 /* poplar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poplar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49335CD02E00D21A0057A197 /* poplarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poplarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49335CDA2E00D21A0057A197 /* poplarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poplarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		49F0E4B72DFB7A77005F92A1 /* poplar */ = {
+		49335CC22E00D2190057A197 /* poplar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = poplar;
 			sourceTree = "<group>";
 		};
-		49F0E4C82DFB7A78005F92A1 /* poplarTests */ = {
+		49335CD32E00D21A0057A197 /* poplarTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = poplarTests;
 			sourceTree = "<group>";
 		};
-		49F0E4D22DFB7A78005F92A1 /* poplarUITests */ = {
+		49335CDD2E00D21A0057A197 /* poplarUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = poplarUITests;
 			sourceTree = "<group>";
@@ -29,7 +48,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49F0E4B22DFB7A77005F92A1 /* Frameworks */ = {
+		49335CBD2E00D2190057A197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49335CCD2E00D21A0057A197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49335CD72E00D21A0057A197 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,20 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49F0E4AC2DFB7A77005F92A1 = {
+		49335CB72E00D2190057A197 = {
 			isa = PBXGroup;
 			children = (
-				49F0E4B72DFB7A77005F92A1 /* poplar */,
-				49F0E4C82DFB7A78005F92A1 /* poplarTests */,
-				49F0E4D22DFB7A78005F92A1 /* poplarUITests */,
-				49F0E4B62DFB7A77005F92A1 /* Products */,
+				49335CC22E00D2190057A197 /* poplar */,
+				49335CD32E00D21A0057A197 /* poplarTests */,
+				49335CDD2E00D21A0057A197 /* poplarUITests */,
+				49335CC12E00D2190057A197 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		49F0E4B62DFB7A77005F92A1 /* Products */ = {
+		49335CC12E00D2190057A197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49F0E4B52DFB7A77005F92A1 /* poplar.app */,
+				49335CC02E00D2190057A197 /* poplar.app */,
+				49335CD02E00D21A0057A197 /* poplarTests.xctest */,
+				49335CDA2E00D21A0057A197 /* poplarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,64 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49F0E4B42DFB7A77005F92A1 /* poplar */ = {
+		49335CBF2E00D2190057A197 /* poplar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49F0E4D92DFB7A78005F92A1 /* Build configuration list for PBXNativeTarget "poplar" */;
+			buildConfigurationList = 49335CE42E00D21A0057A197 /* Build configuration list for PBXNativeTarget "poplar" */;
 			buildPhases = (
-				49F0E4B12DFB7A77005F92A1 /* Sources */,
-				49F0E4B22DFB7A77005F92A1 /* Frameworks */,
-				49F0E4B32DFB7A77005F92A1 /* Resources */,
+				49335CBC2E00D2190057A197 /* Sources */,
+				49335CBD2E00D2190057A197 /* Frameworks */,
+				49335CBE2E00D2190057A197 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				49F0E4B72DFB7A77005F92A1 /* poplar */,
+				49335CC22E00D2190057A197 /* poplar */,
 			);
 			name = poplar;
 			packageProductDependencies = (
 			);
 			productName = poplar;
-			productReference = 49F0E4B52DFB7A77005F92A1 /* poplar.app */;
+			productReference = 49335CC02E00D2190057A197 /* poplar.app */;
 			productType = "com.apple.product-type.application";
+		};
+		49335CCF2E00D21A0057A197 /* poplarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49335CE72E00D21A0057A197 /* Build configuration list for PBXNativeTarget "poplarTests" */;
+			buildPhases = (
+				49335CCC2E00D21A0057A197 /* Sources */,
+				49335CCD2E00D21A0057A197 /* Frameworks */,
+				49335CCE2E00D21A0057A197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49335CD22E00D21A0057A197 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				49335CD32E00D21A0057A197 /* poplarTests */,
+			);
+			name = poplarTests;
+			packageProductDependencies = (
+			);
+			productName = poplarTests;
+			productReference = 49335CD02E00D21A0057A197 /* poplarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49335CD92E00D21A0057A197 /* poplarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49335CEA2E00D21A0057A197 /* Build configuration list for PBXNativeTarget "poplarUITests" */;
+			buildPhases = (
+				49335CD62E00D21A0057A197 /* Sources */,
+				49335CD72E00D21A0057A197 /* Frameworks */,
+				49335CD82E00D21A0057A197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49335CDC2E00D21A0057A197 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				49335CDD2E00D21A0057A197 /* poplarUITests */,
+			);
+			name = poplarUITests;
+			packageProductDependencies = (
+			);
+			productName = poplarUITests;
+			productReference = 49335CDA2E00D21A0057A197 /* poplarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		49F0E4AD2DFB7A77005F92A1 /* Project object */ = {
+		49335CB82E00D2190057A197 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					49F0E4B42DFB7A77005F92A1 = {
+					49335CBF2E00D2190057A197 = {
 						CreatedOnToolsVersion = 16.4;
+					};
+					49335CCF2E00D21A0057A197 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 49335CBF2E00D2190057A197;
+					};
+					49335CD92E00D21A0057A197 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 49335CBF2E00D2190057A197;
 					};
 				};
 			};
-			buildConfigurationList = 49F0E4B02DFB7A77005F92A1 /* Build configuration list for PBXProject "poplar" */;
+			buildConfigurationList = 49335CBB2E00D2190057A197 /* Build configuration list for PBXProject "poplar" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 49F0E4AC2DFB7A77005F92A1;
+			mainGroup = 49335CB72E00D2190057A197;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 49F0E4B62DFB7A77005F92A1 /* Products */;
+			productRefGroup = 49335CC12E00D2190057A197 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49F0E4B42DFB7A77005F92A1 /* poplar */,
+				49335CBF2E00D2190057A197 /* poplar */,
+				49335CCF2E00D21A0057A197 /* poplarTests */,
+				49335CD92E00D21A0057A197 /* poplarUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		49F0E4B32DFB7A77005F92A1 /* Resources */ = {
+		49335CBE2E00D2190057A197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49335CCE2E00D21A0057A197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49335CD82E00D21A0057A197 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,7 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49F0E4B12DFB7A77005F92A1 /* Sources */ = {
+		49335CBC2E00D2190057A197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49335CCC2E00D21A0057A197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49335CD62E00D21A0057A197 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,8 +255,21 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		49335CD22E00D21A0057A197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49335CBF2E00D2190057A197 /* poplar */;
+			targetProxy = 49335CD12E00D21A0057A197 /* PBXContainerItemProxy */;
+		};
+		49335CDC2E00D21A0057A197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49335CBF2E00D2190057A197 /* poplar */;
+			targetProxy = 49335CDB2E00D21A0057A197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		49F0E4D72DFB7A78005F92A1 /* Debug */ = {
+		49335CE22E00D21A0057A197 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -200,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		49F0E4D82DFB7A78005F92A1 /* Release */ = {
+		49335CE32E00D21A0057A197 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +387,7 @@
 			};
 			name = Release;
 		};
-		49F0E4DA2DFB7A78005F92A1 /* Debug */ = {
+		49335CE52E00D21A0057A197 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -281,7 +413,7 @@
 			};
 			name = Debug;
 		};
-		49F0E4DB2DFB7A78005F92A1 /* Release */ = {
+		49335CE62E00D21A0057A197 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,28 +439,110 @@
 			};
 			name = Release;
 		};
+		49335CE82E00D21A0057A197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.capek.poplarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poplar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poplar";
+			};
+			name = Debug;
+		};
+		49335CE92E00D21A0057A197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.capek.poplarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poplar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/poplar";
+			};
+			name = Release;
+		};
+		49335CEB2E00D21A0057A197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.capek.poplarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = poplar;
+			};
+			name = Debug;
+		};
+		49335CEC2E00D21A0057A197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.capek.poplarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = poplar;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49F0E4B02DFB7A77005F92A1 /* Build configuration list for PBXProject "poplar" */ = {
+		49335CBB2E00D2190057A197 /* Build configuration list for PBXProject "poplar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49F0E4D72DFB7A78005F92A1 /* Debug */,
-				49F0E4D82DFB7A78005F92A1 /* Release */,
+				49335CE22E00D21A0057A197 /* Debug */,
+				49335CE32E00D21A0057A197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49F0E4D92DFB7A78005F92A1 /* Build configuration list for PBXNativeTarget "poplar" */ = {
+		49335CE42E00D21A0057A197 /* Build configuration list for PBXNativeTarget "poplar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49F0E4DA2DFB7A78005F92A1 /* Debug */,
-				49F0E4DB2DFB7A78005F92A1 /* Release */,
+				49335CE52E00D21A0057A197 /* Debug */,
+				49335CE62E00D21A0057A197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49335CE72E00D21A0057A197 /* Build configuration list for PBXNativeTarget "poplarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49335CE82E00D21A0057A197 /* Debug */,
+				49335CE92E00D21A0057A197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49335CEA2E00D21A0057A197 /* Build configuration list for PBXNativeTarget "poplarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49335CEB2E00D21A0057A197 /* Debug */,
+				49335CEC2E00D21A0057A197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 49F0E4AD2DFB7A77005F92A1 /* Project object */;
+	rootObject = 49335CB82E00D2190057A197 /* Project object */;
 }
